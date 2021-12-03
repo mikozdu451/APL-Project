@@ -1,0 +1,3 @@
+C:/Users/pumpk/Desktop/git/APL-Project/CPP-Greyscale/cmake-build-cmakelists/CMakeFiles/CPP_Greyscale.dir
+C:/Users/pumpk/Desktop/git/APL-Project/CPP-Greyscale/cmake-build-cmakelists/CMakeFiles/edit_cache.dir
+C:/Users/pumpk/Desktop/git/APL-Project/CPP-Greyscale/cmake-build-cmakelists/CMakeFiles/rebuild_cache.dir

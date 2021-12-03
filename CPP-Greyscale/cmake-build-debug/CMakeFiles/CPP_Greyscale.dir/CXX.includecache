@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/pumpk/Desktop/git/APL-Project/CPP-Greyscale/main.cpp
+iostream
+-
+conio.h
+-
+fstream
+-
+
