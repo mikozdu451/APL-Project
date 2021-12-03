@@ -1,0 +1,6 @@
+﻿  Assembling mydll.asm...
+mydll.asm(38): warning A6004: procedure argument or local not referenced : hInstDLL
+mydll.asm(38): warning A6004: procedure argument or local not referenced : reason
+mydll.asm(38): warning A6004: procedure argument or local not referenced : reserved1
+     Creating library C:\Users\mikol\Documents\Studies\APL Project\JASol\Debug\JADll.lib and object C:\Users\mikol\Documents\Studies\APL Project\JASol\Debug\JADll.exp
+  JADll.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project\JASol\Debug\JADll.dll
