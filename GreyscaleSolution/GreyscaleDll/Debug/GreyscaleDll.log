@@ -1,6 +1,0 @@
-﻿  Assembling Greyscale.asm...
-Greyscale.asm(26): warning A6004: procedure argument or local not referenced : hInstDLL
-Greyscale.asm(26): warning A6004: procedure argument or local not referenced : reason
-Greyscale.asm(26): warning A6004: procedure argument or local not referenced : reserved1
-     Creating library C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\Debug\GreyscaleDll.lib and object C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\Debug\GreyscaleDll.exp
-  GreyscaleDll.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\Debug\GreyscaleDll.dll

@@ -1,8 +1,0 @@
-﻿  GreyscaleApp.cpp
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(228,42): warning C4018: '<': signed/unsigned mismatch
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(235,20): warning C4244: '=': conversion from 'float' to 'uint32_t', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(250,42): warning C4018: '<': signed/unsigned mismatch
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(255,40): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(256,40): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\GreyscaleApp\BMP.h(257,40): warning C4244: '=': conversion from 'double' to 'uint32_t', possible loss of data
-  GreyscaleApp.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project Git\APL-Project\GreyscaleSolution\Debug\GreyscaleApp.exe
