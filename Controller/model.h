@@ -10,6 +10,7 @@ private:
     QPixmap previewImage;
     QPixmap asmImage;
     QPixmap cImage;
+    QString imagePath;
     int methodIndex;
     int previewWidth;
     int previewHeight;
@@ -20,6 +21,7 @@ public:
     void setPreviewImage(QPixmap pixmap);
     void setAsmImage(QPixmap pixmap);
     void setCImage(QPixmap pixmap);
+    void setImagePath(QString path);
     void setMethodIndex(int number);
     void setPreviewWidth(int number);
     void setPreviewHeight(int number);
@@ -28,6 +30,7 @@ public:
     QPixmap getPreviewImage();
     QPixmap getAsmImage();
     QPixmap getCImage();
+    QString getImagePath();
     int getMethodIndex();
     int getPreviewWidth();
     int getPreviewHeight();

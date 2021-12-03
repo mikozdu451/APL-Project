@@ -17,6 +17,10 @@ void Model::setCImage(QPixmap pixmap){
     this->cImage = pixmap;
 };
 
+void Model::setImagePath(QString path){
+    this->imagePath = path;
+};
+
 void Model::setMethodIndex(int number){
     this->methodIndex = number;
 };
@@ -68,3 +72,7 @@ QPixmap Model::getAsmImage(){
 QPixmap Model::getCImage(){
     return this->cImage;
 };
+
+QString Model::getImagePath(){
+    return this->imagePath;
+}
