@@ -1,0 +1,7 @@
+;-------------------------------------------------------------------------
+LIBRARY GreyscaleDll
+EXPORTS Grayscale_GIMP
+EXPORTS Grayscale_BT709
+EXPORTS Grayscale_BT601
+EXPORTS Grayscale_arithmetic
+;-------------------------------------------------------------------------
