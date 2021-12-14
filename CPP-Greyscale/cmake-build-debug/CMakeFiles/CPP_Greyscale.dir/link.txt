@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CPP_Greyscale.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\CPP_Greyscale.dir/objects.a @CMakeFiles\CPP_Greyscale.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\CPP_Greyscale.dir/objects.a -Wl,--no-whole-archive  -o CPP_Greyscale.exe -Wl,--out-implib,libCPP_Greyscale.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPP_Greyscale.dir\linklibs.rsp

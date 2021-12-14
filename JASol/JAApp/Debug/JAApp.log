@@ -1,6 +1,0 @@
-﻿  JAApp.cpp
-C:\Users\mikol\Documents\Studies\APL Project\JASol\JAApp\JAApp.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project\JASol\JAApp\JAApp.cpp(44,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project\JASol\JAApp\JAApp.cpp(45,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\mikol\Documents\Studies\APL Project\JASol\JAApp\JAApp.cpp(46,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  JAApp.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project\JASol\Debug\JAApp.exe
