@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
+    <width>805</width>
     <height>600</height>
    </rect>
   </property>
@@ -103,6 +103,9 @@ color: rgb(0, 0, 0);</string>
       <property name="text">
        <string/>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
     </widget>
     <widget class="QWidget" name="methodChooseWindow">
@@ -168,7 +171,7 @@ color: rgb(0, 0, 0);</string>
        </font>
       </property>
       <property name="text">
-       <string>BT.601</string>
+       <string>BT.2100</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton2">
@@ -225,7 +228,7 @@ color: rgb(0, 0, 0);</string>
        </font>
       </property>
       <property name="text">
-       <string>Formula used by GIMP or Photoshop</string>
+       <string>GIMP (BT.601)</string>
       </property>
      </widget>
      <widget class="QLabel" name="label">
@@ -256,10 +259,10 @@ color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="previousWindowButton2">
       <property name="geometry">
        <rect>
-        <x>310</x>
-        <y>520</y>
-        <width>181</width>
-        <height>41</height>
+        <x>20</x>
+        <y>10</y>
+        <width>71</width>
+        <height>31</height>
        </rect>
       </property>
       <property name="font">
@@ -279,10 +282,10 @@ color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="downloadButton1">
       <property name="geometry">
        <rect>
-        <x>140</x>
-        <y>520</y>
+        <x>290</x>
+        <y>20</y>
         <width>101</width>
-        <height>21</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -292,10 +295,10 @@ color: rgb(0, 0, 0);</string>
      <widget class="QPushButton" name="downloadButton2">
       <property name="geometry">
        <rect>
-        <x>540</x>
-        <y>520</y>
+        <x>680</x>
+        <y>20</y>
         <width>101</width>
-        <height>21</height>
+        <height>31</height>
        </rect>
       </property>
       <property name="text">
@@ -357,35 +360,35 @@ color: rgb(0, 0, 0);</string>
      <widget class="QLabel" name="asmTimeLabel">
       <property name="geometry">
        <rect>
-        <x>90</x>
+        <x>20</x>
         <y>480</y>
-        <width>91</width>
-        <height>20</height>
+        <width>111</width>
+        <height>21</height>
        </rect>
       </property>
       <property name="text">
-       <string>Time in seconds:</string>
+       <string>Time in nanoseconds:</string>
       </property>
      </widget>
      <widget class="QLabel" name="cTimeLabel">
       <property name="geometry">
        <rect>
-        <x>510</x>
+        <x>410</x>
         <y>480</y>
-        <width>81</width>
+        <width>111</width>
         <height>20</height>
        </rect>
       </property>
       <property name="text">
-       <string>Time in seconds:</string>
+       <string>Time in nanoseconds:</string>
       </property>
      </widget>
      <widget class="QLabel" name="asmTime">
       <property name="geometry">
        <rect>
-        <x>190</x>
+        <x>130</x>
         <y>480</y>
-        <width>91</width>
+        <width>121</width>
         <height>21</height>
        </rect>
       </property>
@@ -396,9 +399,9 @@ color: rgb(0, 0, 0);</string>
      <widget class="QLabel" name="cTime">
       <property name="geometry">
        <rect>
-        <x>600</x>
+        <x>520</x>
         <y>480</y>
-        <width>91</width>
+        <width>121</width>
         <height>21</height>
        </rect>
       </property>
@@ -427,6 +430,9 @@ color: rgb(0, 0, 0);</string>
       <property name="text">
        <string/>
       </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
      </widget>
      <widget class="QLabel" name="cPreview">
       <property name="geometry">
@@ -445,6 +451,165 @@ color: rgb(0, 0, 0);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTimeLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>500</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in microseconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTimeLabel_5">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>520</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in milliseconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTimeLabel_6">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>540</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in seconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTime_3">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>500</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTime_4">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>520</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="asmTime_5">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>540</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTimeLabel_3">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>500</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in microseconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTimeLabel_4">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>520</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in milliseconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTimeLabel_5">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>540</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time in seconds:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTime_3">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>500</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTime_4">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>520</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="cTime_5">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>540</y>
+        <width>121</width>
+        <height>21</height>
+       </rect>
       </property>
       <property name="text">
        <string/>

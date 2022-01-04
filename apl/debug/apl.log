@@ -1,2 +1,5 @@
-﻿  mainwindow.cpp
+﻿  Moc'ing mainwindow.h...
+  main.cpp
+  mainwindow.cpp
+  moc_mainwindow.cpp
   apl.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project\apl\debug\apl.exe

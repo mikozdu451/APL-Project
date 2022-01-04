@@ -22,10 +22,10 @@ public:
 
 private slots:
     QString getSaveFilePath();
-    QPixmap getPixelmap(int *matrix, QImage image);
-    int* getMatrix(QImage image);
+    QPixmap getPixelmap(std::unique_ptr<float[]>& matrix, QImage image);
+    std::unique_ptr<float[]> MainWindow::getMatrix(QImage image);
     int getCheckedRadio();
-    void changeToGrayscale(int *array, int size, int choice);
+    void MainWindow::changeToGrayscale(std::unique_ptr<float[]>& array, int size, int choice);
     void on_nextWindowButton1_clicked();
     void on_nextWindowButton2_clicked();
     void on_previousWindowButton1_clicked();
