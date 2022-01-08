@@ -1,3 +1,7 @@
-﻿     Creating library C:\Users\mikol\Documents\Studies\APL Project\apl\Release\GreyscaleDll.lib and object C:\Users\mikol\Documents\Studies\APL Project\apl\Release\GreyscaleDll.exp
+﻿  Assembling Greyscale.asm...
+Greyscale.asm(41): warning A6004: procedure argument or local not referenced : hInstDLL
+Greyscale.asm(41): warning A6004: procedure argument or local not referenced : reason
+Greyscale.asm(41): warning A6004: procedure argument or local not referenced : reserved1
+     Creating library C:\Users\mikol\Documents\Studies\APL Project\apl\Release\GreyscaleDll.lib and object C:\Users\mikol\Documents\Studies\APL Project\apl\Release\GreyscaleDll.exp
   LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
   GreyscaleDll.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project\apl\Release\GreyscaleDll.dll

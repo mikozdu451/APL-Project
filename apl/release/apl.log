@@ -1,2 +1,9 @@
-﻿  mainwindow.cpp
+﻿  Reading Qt configuration (C:/Qt/5.12.12/msvc2017/bin/qmake)
+  Moc'ing mainwindow.h...
+   C:\Users\mikol\Documents\Studies\APL Project\apl\mainwindow.h(26): Warning: Function declaration MainWindow::getMatrix contains extra qualification. Ignoring as signal or slot.
+   C:\Users\mikol\Documents\Studies\APL Project\apl\mainwindow.h(28): Warning: Function declaration MainWindow::changeToGrayscale contains extra qualification. Ignoring as signal or slot.
+  main.cpp
+  mainwindow.cpp
+  model.cpp
+  moc_mainwindow.cpp
   apl.vcxproj -> C:\Users\mikol\Documents\Studies\APL Project\apl\release\apl.exe
